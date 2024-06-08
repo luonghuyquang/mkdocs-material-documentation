@@ -71,28 +71,28 @@ Differences syntax for icon in `md` and in `html`:
     The icon <i class="mdi mdi-flask-outline"></i> is achieved in .html
     ```
 ### Examples
-<a href='../documentation/assets/sampleHamk.zip' download>
+<a href='../assets/sampleHamk.zip' download>
   <i class="mdi mdi-folder-download"></i>
 </a> `html mdi mdi-folder-download`/
-[:material-folder-download:](../documentation/assets/sampleHamk.zip) `md :material-folder-download:`  
+[:material-folder-download:](../assets/sampleHamk.zip) `md :material-folder-download:`  
 Similarly  
-<a href='../documentation/assets/sampleHamk.zip' download>
+<a href='../assets/sampleHamk.zip' download>
   <i class='fa-solid fa-file-arrow-down'></i>
-</a> `html` / [:fontawesome-solid-file-arrow-down:](../documentation/assets/sampleHamk.zip) `md`  
-<a href='../documentation/assets/sampleHamk.zip' download>
+</a> `html` / [:fontawesome-solid-file-arrow-down:](../assets/sampleHamk.zip) `md`  
+<a href='../assets/sampleHamk.zip' download>
   <i class='fa-solid fa-download'></i>
-</a> `html` / [:fontawesome-solid-download:](../documentation/assets/sampleHamk.zip) `md`  
-<a href='../documentation/assets/sampleHamk.zip' download>
+</a> `html` / [:fontawesome-solid-download:](../assets/sampleHamk.zip) `md`  
+<a href='../assets/sampleHamk.zip' download>
   <i class='fa-regular fa-floppy-disk'></i>
-</a> `html` / [:fontawesome-regular-floppy-disk:](../documentation/assets/sampleHamk.zip) `md`  
-<a href='../documentation/assets/sampleHamk.zip' download>
+</a> `html` / [:fontawesome-regular-floppy-disk:](../assets/sampleHamk.zip) `md`  
+<a href='../assets/sampleHamk.zip' download>
   <i class='fa-solid fa-cloud-arrow-down'></i>
-</a> `html` / [:fontawesome-solid-cloud-arrow-down:](../documentation/assets/sampleHamk.zip) `md`   
+</a> `html` / [:fontawesome-solid-cloud-arrow-down:](../assets/sampleHamk.zip) `md`   
 Using in a button  
-<a href='../documentation/assets/sampleHamk.zip' download class="md-button md-button--primary">
+<a href='../assets/sampleHamk.zip' download class="md-button md-button--primary">
   <i class="mdi mdi-folder-download"></i> Download the template `.zip`
 </a> `html` / 
-[:material-folder-download: Download the template `.zip`](../documentation/assets/sampleHamk.zip){ .md-button .md-button--primary} `md`
+[:material-folder-download: Download the template `.zip`](../assets/sampleHamk.zip){ .md-button .md-button--primary} `md`
 
 ## Videos  
 ???+ note "documentation"

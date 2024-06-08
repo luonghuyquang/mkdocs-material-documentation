@@ -54,6 +54,15 @@ title: Setting up
 
     1. Replace with your email
 
+## Basic MkDocs commands
+
+* `#!sh mkdocs -h` - Print help message.
+* `#!sh mkdocs build` - Build the documentation site.
+* `#!sh mkdocs serve` - Start the live-reloading docs server.
+* `#!sh mkdocs gh-deploy` - Deploy the documents from github page.
+???+ note "for automatic deployment using githubaction"
+    - View the documentation on <a href='https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions' target='_blank'>Publishing your site with GitHub Actions</a>
+
 ## Search function
 !!! info "documentation: Setting up site search"
     MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/' target='_blank'>Setting up site search</a>  
@@ -107,10 +116,10 @@ HAMK light pink = HEX #D7AFFF = rgb(215, 175, 255)
 ### HAMK logo & favicon
 
 ???+ note "documentation"
-    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/'>Changing the logo and icons</a>
+    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/' target='_blank'>Changing the logo and icons</a>
 
 HAMK logo (white on transparent) used as logo and favicon.  
-Other HAMK logo, <a href='https://www.hamk.fi/wp-content/themes/hamk/dist/graphic-background-full.svg?v=081d95ef6e7655f27b90'>black on transparent</a>
+Other HAMK logo, <a href='https://www.hamk.fi/wp-content/themes/hamk/dist/graphic-background-full.svg?v=081d95ef6e7655f27b90' target='_blank'>black on transparent</a>
 
 Logo and Favicon:  
 ```yaml title="mkdocs.yml"
@@ -123,7 +132,7 @@ theme:
 ### HAMK fonts
 
 ???+ note "documentation"
-    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/'>Changing the fonts</a>
+    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/' target='_blank'>Changing the fonts</a>
 Customizing h elements (TT Rounds Neue DemiBold) vs body (Inter) done.  
 
 CSS settings for font families (from the <a href='https://www.hamk.fi/tietoa-meista/hamkin-brandi/' target='_blank'>HAMKin brandi page</a>)  
@@ -162,11 +171,10 @@ extra_css:
 ### Dark mode as default
 
 ???+ note "documentation"
-    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle'>Color palette toggle</a>
+    MkDocs-material <a href='https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle' target='_blank'>Color palette toggle</a>
 
 To set dark mode as default:  
 put - scheme: slate as the 1st scheme in palette (when the user first visits our site, the media queries are evaluated in the order of their definition.)  
-See also <a href='./#74-deprioritized-switch-to-system-preference-beside-the-dual-dark-light'> 7.4 Switch to 'system preference' beside the dual dark / light</a>
 
 ## Permalink
 - <a href='https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=permalink#+toc.permalink' target='_blank'>Permalink</a> (`permalink`) inserts an anchor link with the symbol ¶ at the end of each headline, directly link to a subpart of the document, for easy sharing.

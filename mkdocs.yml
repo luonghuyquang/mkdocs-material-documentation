@@ -3,7 +3,7 @@ repo_url: https://github.com/luonghuyquang/mkdocs-material-documentation
 repo_name: hamk/bit_ca
 theme:
   name: material
-  logo: assets/logo_light_pink.png
+  logo: assets/favicon/logo_light_pink.png
   favicon: assets/favicon/favicon.png
   features:
     - content.tabs.link
@@ -14,9 +14,10 @@ theme:
     - navigation.tabs
     - navigation.sections
 #    - navigation.expand # needed for larger webservers
-#    - navigation.path # needed for larger webservers
-    - navigation.top
+    - navigation.path # needed for larger webservers
+    - navigation.top # go to top button
     - navigation.footer # next and back buttons in footer
+#    - navigation.tabs.sticky
     - search # as part of feature, works when plugins off. If plugins on: search must be on in plugins to be enabled.
     - search.sidebar
     - search.suggest
@@ -24,7 +25,7 @@ theme:
 #    - toc
 #    - toc.sidebar
 #    - toc.follow
-#    - toc.integrate # this integrate the right side toc to the left side nav
+    - toc.integrate # this integrate the right side toc to the left side nav
   language: en
   palette:
     # Palette toggle for dark mode
@@ -53,6 +54,15 @@ extra:
   status:
     new: New feature
     experimental: experimental
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css
+  - https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css
+  - css/custom.css
+extra_javascript:
+  - js/custom.js
 
 markdown_extensions:
   - attr_list
@@ -88,26 +98,18 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-extra_css:
-  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
-  - https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css
-  - https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css
-  - css/custom.css
-extra_javascript:
-  - js/custom.js
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Setting up: settingUp.md
+  - Editing a page: editing.md
+  - Code blocks: codeBlocks.md
   
 # plugins:
 #  - offline:
 #      enabled: !ENV [OFFLINE, false] # if true, the rendered url will differ with .html ending
 #  - info # this is to report bug to mkdocs-material only
 #  - search # must be on if plugins on
-
-#nav:
-#  - Home: index.md
-#  - Template: template/index.md
-#  - Documentation: documentation/index.md
-#  - BYOD: byod/index.md
 
 copyright:
   Copyright &copy; 2024 <a href="https://www.hamk.fi/en/" target="blank" >Häme University of Applied Sciences (HAMK)</a>
