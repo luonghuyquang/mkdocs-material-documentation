@@ -42,7 +42,7 @@ Mkdocs has a powerful search :material-magnify: function.
     Replace the placeholder `firstname.lastname@hamk.fi` with your own email in 2 places  
     - Refer to the documentation [setting up](./2.settingUp/#email)  
 
-## Example page
+## Example pages
 - The <a href='https://hamk-business-information-technology.github.io/os/' target='_blank'>BYOD</a> page is an example of applying Mkdocs-material to the BYOD content.
 - This page itself is an example of using mkdocs-material.
 

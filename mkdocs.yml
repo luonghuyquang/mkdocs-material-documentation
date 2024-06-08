@@ -1,6 +1,6 @@
 site_name: MkDocs-material Documentation
 repo_url: https://github.com/luonghuyquang/mkdocs-material-documentation
-repo_name: hamk/bit_ca
+repo_name: hamk-bit-ca/documentation
 theme:
   name: material
   logo: assets/favicon/logo_light_pink.png
