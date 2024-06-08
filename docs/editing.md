@@ -27,10 +27,10 @@ abstract, bug, danger, example, info, note, question, quote, success, tip, warni
     Use "customized title" to give a title to the admonition  
     Use !!! to start an admonition
 
-??? note "content hidden by default and need to click to the right to open"
+??? note "content hidden by default and need to click on the title bar to open"
     Use ??? to start an admonition
 
-???+ danger "content displayed by default and can click to the right to hide"
+???+ danger "content displayed by default and can click  on the title bar to hide"
     Use ???+ to start an admonition
 
   > - Code can be inside an admonition, as the examples in `code blocks/`<a href='../codeBlocks/#code-line-numbering'>`code line numbering`</a>
