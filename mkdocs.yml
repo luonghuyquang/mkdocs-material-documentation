@@ -1,5 +1,6 @@
 site_name: MkDocs-material Documentation
-repo_url: https://github.com/luonghuyquang/mkdocs-material-documentation
+repo_url: https://github.com/hamk-business-information-technology/mkdocs-material-documentation
+edit_uri: edit/main/docs/ # to let content.action.edit / view redirect to `main`, not `master`
 repo_name: hamk-bit-ca/documentation
 theme:
   name: material
@@ -9,8 +10,8 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.code.annotate
-#    - content.action.edit # link to edit, The repo_url must also be given
-#    - content.action.view # link to view, The repo_url must also be given
+    - content.action.edit # link to edit, the repo_url must also be given
+    - content.action.view # link to view, the repo_url must also be given
     - navigation.tabs
     - navigation.sections
 #    - navigation.expand # needed for larger webservers
@@ -36,7 +37,7 @@ theme:
         primary: custom
         accent: custom
     # Palette toggle for light mode
-    - scheme: default #HAMK #
+    - scheme: default #HAMK
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
