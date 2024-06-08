@@ -40,7 +40,7 @@ Mkdocs has a powerful search :material-magnify: function.
 ## Email placeholder
 ???+ warning  ":material-email-outline: in the template, replace `firstname.lastname@hamk.fi` with `your email`"
     Replace the placeholder `firstname.lastname@hamk.fi` with your own email in 2 places  
-    - Refer to the documentation [setting up](./2.settingUp/#email)  
+    - Refer to the documentation [setting up](./settingUp/#email)  
 
 ## Example pages
 - The <a href='https://hamk-business-information-technology.github.io/os/' target='_blank'>BYOD</a> page is an example of applying Mkdocs-material to the BYOD content.
@@ -54,7 +54,7 @@ Search for a tool or setting. If not covered in this documentation, look for it 
 !!! tip
     Search 'nav' or 'toc' for setting.  
     Search 'integrate' for how to integrate the toc to the nav.
-See more in [setting up](../2.settingUp/#navigation)  
+See more in [setting up](../settingUp/#navigation)  
 - The left-side menu is called nav (navigation)  
 - The right-side menu is called the toc (table of content)  
     - For small pages (such as this one), the `toc` can be integrated into the `nav` (search `integrate` for guidance)

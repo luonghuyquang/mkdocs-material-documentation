@@ -33,7 +33,7 @@ abstract, bug, danger, example, info, note, question, quote, success, tip, warni
 ???+ danger "content displayed by default and can click to the right to hide"
     Use ???+ to start an admonition
 
-  > - Code can be inside an admonition, as the examples in `code blocks/`<a href='../4.codeBlocks/#code-line-numbering'>`code line numbering`</a>
+  > - Code can be inside an admonition, as the examples in `code blocks/`<a href='../codeBlocks/#code-line-numbering'>`code line numbering`</a>
 
 
 ## Icons
